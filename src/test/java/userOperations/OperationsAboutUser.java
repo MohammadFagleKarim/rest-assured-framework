@@ -23,21 +23,18 @@ import java.util.Map;
 public class OperationsAboutUser {
 
     public static final String BASE_URL = "https://petstore.swagger.io/v2";
-
-    static int valueOfId = 1000;
-    static String valueOfUsername = "test_karim";
-    static String valueOfFirstName = "Mohammad";
-    static String valueOfLastName = "Karim";
-    static String valueOfEmail = "karim@gmail.com";
-    static String valueOfPassword = "123456";
-    static String valueOfPhone = "256686456";
-    static int valueOfUserStatus = 1;
-
-    static String updatedValueOfPassword = "123@#";
-    static String updatedValueOfFirstName = "Fazle";
-    static int updatedValueOfUserStatus = 0;
-
-    static int expectedStatusCode = 200;
+    public static int valueOfId = 1000;
+    public static String valueOfUsername = "test_karim";
+    public static String valueOfFirstName = "Mohammad";
+    public static String valueOfLastName = "Karim";
+    public static String valueOfEmail = "karim@gmail.com";
+    public static String valueOfPassword = "123456";
+    public static String valueOfPhone = "256686456";
+    public static int valueOfUserStatus = 1;
+    public static String updatedValueOfPassword = "123@#";
+    public static String updatedValueOfFirstName = "Fazle";
+    public static int updatedValueOfUserStatus = 0;
+    public static int expectedStatusCode = 200;
 
     @Test(priority = 1)
     public void createUser() {
